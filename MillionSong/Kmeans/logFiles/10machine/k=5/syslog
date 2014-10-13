@@ -1,0 +1,965 @@
+2014-04-17 20:00:21,623 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 6%
+2014-04-17 20:00:24,661 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 20%
+2014-04-17 20:00:27,687 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:00:32,720 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0029
+2014-04-17 20:00:32,724 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:00:32,724 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:00:32,724 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=9
+2014-04-17 20:00:32,724 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=39549
+2014-04-17 20:00:32,725 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:00:32,725 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:00:32,725 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:00:32,725 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:00:32,725 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=149116
+2014-04-17 20:00:32,725 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:00:32,725 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=488
+2014-04-17 20:00:32,725 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:00:32,726 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434634
+2014-04-17 20:00:32,726 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:00:32,726 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600044
+2014-04-17 20:00:32,726 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1021961
+2014-04-17 20:00:32,726 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=488
+2014-04-17 20:00:32,726 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:00:32,726 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:00:32,726 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:00:32,727 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434614
+2014-04-17 20:00:32,727 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:00:32,727 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434614
+2014-04-17 20:00:32,727 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:00:32,727 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:00:32,727 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:00:32,727 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=17980
+2014-04-17 20:00:32,727 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:00:32,728 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:00:32,728 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:00:32,728 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:00:32,728 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:00:32,728 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=663044096
+2014-04-17 20:00:32,728 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:00:32,728 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3898707968
+2014-04-17 20:00:32,728 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:00:32,826 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:00:32,855 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:00:32,880 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:00:32,934 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:00:32,958 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:00:32,984 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:00:33,011 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:00:33,036 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:00:33,064 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:00:33,092 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:00:33,294 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:00:33,408 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:00:33,423 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:00:33,448 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:96 sec:0
+2014-04-17 20:00:33,448 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:00:33,463 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:00:33,489 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:98 sec:0
+2014-04-17 20:00:33,490 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:00:33,505 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:00:33,527 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:99 sec:0
+2014-04-17 20:00:33,527 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:00:33,541 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:00:33,573 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:96 sec:0
+2014-04-17 20:00:33,573 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:00:33,588 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:00:33,614 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:99 sec:0
+2014-04-17 20:00:33,704 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:00:33,836 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:00:33,836 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:00:33,836 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:00:33,895 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:00:33,946 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:00:34,662 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0030
+2014-04-17 20:00:35,664 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:01:10,746 INFO org.apache.hadoop.mapred.JobClient (main):  map 84% reduce 0%
+2014-04-17 20:01:13,753 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:01:34,813 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 20%
+2014-04-17 20:01:36,828 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 40%
+2014-04-17 20:01:37,830 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 60%
+2014-04-17 20:01:40,837 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 80%
+2014-04-17 20:01:42,842 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:02:00,887 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0030
+2014-04-17 20:02:00,895 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:02:00,895 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:02:00,895 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=9
+2014-04-17 20:02:00,895 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=52844
+2014-04-17 20:02:00,895 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:02:00,895 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:02:00,895 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:02:00,895 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:02:00,896 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=120425
+2014-04-17 20:02:00,896 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:02:00,896 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=485
+2014-04-17 20:02:00,896 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:02:00,896 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434599
+2014-04-17 20:02:00,896 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:02:00,896 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600046
+2014-04-17 20:02:00,896 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1021891
+2014-04-17 20:02:00,899 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=485
+2014-04-17 20:02:00,899 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:02:00,899 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:02:00,899 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:02:00,900 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434579
+2014-04-17 20:02:00,900 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:02:00,900 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434579
+2014-04-17 20:02:00,900 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:02:00,900 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=18000
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=694419456
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3847061504
+2014-04-17 20:02:00,905 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:02:01,016 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:02:01,056 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:02:01,095 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:02:01,153 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:02:01,195 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:02:01,224 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:02:01,275 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:02:01,294 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:02:01,314 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:02:01,335 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:02:01,524 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:02:01,624 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:02:01,636 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:02:01,659 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:96 sec:0
+2014-04-17 20:02:01,660 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:02:01,670 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:02:01,692 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:99 sec:0
+2014-04-17 20:02:01,693 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:02:01,704 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:02:01,738 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:97 sec:0
+2014-04-17 20:02:01,739 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:02:01,750 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:02:01,775 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:95 sec:0
+2014-04-17 20:02:01,776 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:02:01,789 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:02:01,821 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:98 sec:0
+2014-04-17 20:02:01,898 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:02:02,016 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:02:02,016 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:02:02,016 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:02:02,296 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:02:02,338 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:02:02,651 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0031
+2014-04-17 20:02:03,653 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:02:43,748 INFO org.apache.hadoop.mapred.JobClient (main):  map 94% reduce 0%
+2014-04-17 20:02:46,756 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:03:10,818 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 20%
+2014-04-17 20:03:13,837 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:03:18,851 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0031
+2014-04-17 20:03:18,855 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:03:18,855 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:03:18,855 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=8
+2014-04-17 20:03:18,856 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=40282
+2014-04-17 20:03:18,856 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:03:18,856 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:03:18,856 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:03:18,856 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:03:18,856 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=117421
+2014-04-17 20:03:18,856 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:03:18,857 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=482
+2014-04-17 20:03:18,857 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:03:18,857 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=435030
+2014-04-17 20:03:18,857 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:03:18,857 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600043
+2014-04-17 20:03:18,857 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1022753
+2014-04-17 20:03:18,857 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=482
+2014-04-17 20:03:18,857 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:03:18,858 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:03:18,858 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:03:18,858 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=435010
+2014-04-17 20:03:18,858 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:03:18,858 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=435010
+2014-04-17 20:03:18,858 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:03:18,858 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:03:18,858 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:03:18,859 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=16720
+2014-04-17 20:03:18,859 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:03:18,859 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:03:18,859 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:03:18,859 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:03:18,859 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:03:18,859 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=706342912
+2014-04-17 20:03:18,859 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:03:18,859 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=4051763200
+2014-04-17 20:03:18,859 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:03:18,930 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:03:18,954 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:03:18,976 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:03:18,998 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:03:19,022 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:03:19,048 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:03:19,074 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:03:19,102 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:03:19,130 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:03:19,160 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:03:19,457 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:03:19,625 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:03:19,640 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:03:19,681 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:97 sec:0
+2014-04-17 20:03:19,682 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:03:19,841 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:03:19,961 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:97 sec:0
+2014-04-17 20:03:19,961 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:03:19,975 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:03:20,017 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:95 sec:0
+2014-04-17 20:03:20,017 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:03:20,033 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:03:20,059 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:97 sec:0
+2014-04-17 20:03:20,059 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:03:20,073 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:03:20,098 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:96 sec:0
+2014-04-17 20:03:20,195 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:03:20,318 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:03:20,318 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:03:20,318 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:03:20,360 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2014-04-17 20:03:20,360 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:03:20,433 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:03:20,666 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0032
+2014-04-17 20:03:21,668 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:03:55,746 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:04:16,795 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 20%
+2014-04-17 20:04:19,802 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 40%
+2014-04-17 20:04:22,810 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 60%
+2014-04-17 20:04:25,818 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 80%
+2014-04-17 20:04:28,825 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:04:45,867 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0032
+2014-04-17 20:04:45,871 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:04:45,871 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:04:45,872 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=8
+2014-04-17 20:04:45,872 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=51834
+2014-04-17 20:04:45,872 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:04:45,872 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:04:45,872 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:04:45,872 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:04:45,872 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=123884
+2014-04-17 20:04:45,872 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:04:45,873 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=485
+2014-04-17 20:04:45,873 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:04:45,873 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434436
+2014-04-17 20:04:45,873 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:04:45,873 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600040
+2014-04-17 20:04:45,873 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1021565
+2014-04-17 20:04:45,873 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=485
+2014-04-17 20:04:45,873 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:04:45,874 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:04:45,874 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:04:45,874 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434416
+2014-04-17 20:04:45,874 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:04:45,874 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434416
+2014-04-17 20:04:45,874 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:04:45,874 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=16550
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=682332160
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3893219328
+2014-04-17 20:04:45,875 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:04:45,946 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:04:45,968 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:04:45,990 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:04:46,013 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:04:46,034 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:04:46,057 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:04:46,081 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:04:46,103 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:04:46,123 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:04:46,146 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:04:46,357 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:04:46,459 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:04:46,471 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:04:46,493 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:98 sec:0
+2014-04-17 20:04:46,493 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:04:46,506 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:04:46,527 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:98 sec:0
+2014-04-17 20:04:46,528 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:04:46,540 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:04:46,593 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:97 sec:0
+2014-04-17 20:04:46,594 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:04:46,605 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:04:46,663 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:95 sec:0
+2014-04-17 20:04:46,664 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:04:46,675 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:04:46,697 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:97 sec:0
+2014-04-17 20:04:46,798 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:04:46,919 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:04:46,919 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:04:46,920 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:04:46,951 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:04:46,993 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:04:47,528 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0033
+2014-04-17 20:04:48,529 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:05:25,628 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:05:49,687 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 20%
+2014-04-17 20:05:52,694 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 99%
+2014-04-17 20:05:55,701 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:06:00,714 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201404171851_0033_r_000001_1, Status : FAILED
+2014-04-17 20:06:12,800 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0033
+2014-04-17 20:06:12,806 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:06:12,806 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:06:12,807 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=9
+2014-04-17 20:06:12,807 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=53592
+2014-04-17 20:06:12,807 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:06:12,807 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:06:12,807 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:06:12,807 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:06:12,808 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=136651
+2014-04-17 20:06:12,808 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:06:12,808 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=484
+2014-04-17 20:06:12,808 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:06:12,808 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434367
+2014-04-17 20:06:12,808 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:06:12,808 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600043
+2014-04-17 20:06:12,809 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1021427
+2014-04-17 20:06:12,809 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=484
+2014-04-17 20:06:12,809 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:06:12,809 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:06:12,809 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:06:12,809 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434347
+2014-04-17 20:06:12,809 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:06:12,810 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434347
+2014-04-17 20:06:12,810 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:06:12,810 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:06:12,810 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:06:12,810 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=16880
+2014-04-17 20:06:12,810 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:06:12,810 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:06:12,810 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:06:12,810 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:06:12,810 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:06:12,811 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=684019712
+2014-04-17 20:06:12,811 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:06:12,811 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3959918592
+2014-04-17 20:06:12,811 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:06:12,881 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:06:12,904 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:06:12,926 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:06:12,951 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:06:12,974 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:06:13,044 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:06:13,066 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:06:13,090 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:06:13,114 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:06:13,136 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:06:13,349 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:06:13,452 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:06:13,468 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:06:13,491 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:97 sec:0
+2014-04-17 20:06:13,491 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:06:13,506 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:06:13,533 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:98 sec:0
+2014-04-17 20:06:13,534 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:06:13,547 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:06:13,574 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:97 sec:0
+2014-04-17 20:06:13,574 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:06:13,586 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:06:13,608 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:94 sec:0
+2014-04-17 20:06:13,609 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:06:13,621 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:06:13,648 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:98 sec:0
+2014-04-17 20:06:13,776 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:06:13,897 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:06:13,897 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:06:13,897 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:06:13,961 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:06:14,008 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:06:14,300 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0034
+2014-04-17 20:06:15,301 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:06:56,395 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:07:20,452 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 80%
+2014-04-17 20:07:23,459 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:07:37,494 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0034
+2014-04-17 20:07:37,497 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:07:37,497 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:07:37,497 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-04-17 20:07:37,498 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=50752
+2014-04-17 20:07:37,498 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:07:37,498 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:07:37,498 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:07:37,498 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:07:37,498 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=138995
+2014-04-17 20:07:37,498 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:07:37,499 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=485
+2014-04-17 20:07:37,499 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:07:37,499 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434799
+2014-04-17 20:07:37,499 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:07:37,499 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600042
+2014-04-17 20:07:37,499 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1022291
+2014-04-17 20:07:37,499 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=485
+2014-04-17 20:07:37,499 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:07:37,500 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:07:37,500 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:07:37,500 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434779
+2014-04-17 20:07:37,500 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:07:37,500 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434779
+2014-04-17 20:07:37,500 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:07:37,500 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:07:37,500 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:07:37,501 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=16960
+2014-04-17 20:07:37,501 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:07:37,501 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:07:37,501 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:07:37,501 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:07:37,501 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:07:37,501 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=700043264
+2014-04-17 20:07:37,501 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:07:37,501 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3901698048
+2014-04-17 20:07:37,501 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:07:37,572 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:07:37,598 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:07:37,622 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:07:37,647 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:07:37,671 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:07:37,696 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:07:37,722 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:07:37,751 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:07:37,777 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:07:37,800 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:07:38,206 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:07:38,383 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:07:38,397 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:07:38,453 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:98 sec:0
+2014-04-17 20:07:38,453 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:07:38,501 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:07:38,598 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:100 sec:0
+2014-04-17 20:07:38,645 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:07:38,687 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:07:38,742 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:95 sec:0
+2014-04-17 20:07:38,742 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:07:38,828 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:07:38,884 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:95 sec:0
+2014-04-17 20:07:38,885 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:07:38,971 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:07:39,016 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:97 sec:0
+2014-04-17 20:07:39,260 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:07:39,492 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:07:39,492 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:07:39,492 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:07:39,555 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:07:39,645 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:07:39,894 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0035
+2014-04-17 20:07:40,938 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:08:23,041 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:08:47,095 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 40%
+2014-04-17 20:08:50,126 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 60%
+2014-04-17 20:08:53,133 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:08:58,146 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201404171851_0035_r_000000_1, Status : FAILED
+2014-04-17 20:09:10,217 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0035
+2014-04-17 20:09:10,221 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:09:10,221 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:09:10,221 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=8
+2014-04-17 20:09:10,221 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=53925
+2014-04-17 20:09:10,221 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:09:10,221 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:09:10,221 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:09:10,222 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:09:10,222 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=137198
+2014-04-17 20:09:10,222 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:09:10,225 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=484
+2014-04-17 20:09:10,225 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:09:10,225 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434312
+2014-04-17 20:09:10,225 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:09:10,225 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600043
+2014-04-17 20:09:10,225 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1021317
+2014-04-17 20:09:10,226 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=484
+2014-04-17 20:09:10,226 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:09:10,226 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:09:10,226 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:09:10,226 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434292
+2014-04-17 20:09:10,226 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:09:10,226 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434292
+2014-04-17 20:09:10,226 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:09:10,227 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=16030
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=666513408
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3833217024
+2014-04-17 20:09:10,229 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:09:10,328 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:09:10,352 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:09:10,377 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:09:10,398 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:09:10,421 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:09:10,446 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:09:10,471 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:09:10,499 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:09:10,526 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:09:10,550 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:09:10,750 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:09:10,858 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:09:10,872 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:09:10,918 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:97 sec:0
+2014-04-17 20:09:10,918 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:09:10,933 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:09:10,959 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:98 sec:0
+2014-04-17 20:09:10,960 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:09:10,973 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:09:10,995 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:99 sec:0
+2014-04-17 20:09:10,995 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:09:11,010 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:09:11,033 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:95 sec:0
+2014-04-17 20:09:11,033 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:09:11,046 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:09:11,081 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:95 sec:0
+2014-04-17 20:09:11,176 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:09:11,299 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:09:11,299 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:09:11,299 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:09:11,346 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2014-04-17 20:09:11,346 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:09:11,394 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:09:11,759 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0036
+2014-04-17 20:09:12,760 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:09:49,857 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:10:11,942 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 40%
+2014-04-17 20:10:13,947 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 79%
+2014-04-17 20:10:14,949 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 99%
+2014-04-17 20:10:16,954 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:10:21,967 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0036
+2014-04-17 20:10:21,971 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:10:21,971 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:10:21,971 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=8
+2014-04-17 20:10:21,971 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=39361
+2014-04-17 20:10:21,971 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:10:21,971 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:10:21,971 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:10:21,972 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:10:21,972 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=110048
+2014-04-17 20:10:21,972 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:10:21,972 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=488
+2014-04-17 20:10:21,972 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:10:21,972 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434854
+2014-04-17 20:10:21,972 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:10:21,972 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600042
+2014-04-17 20:10:21,972 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1022401
+2014-04-17 20:10:21,973 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=488
+2014-04-17 20:10:21,973 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:10:21,973 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:10:21,973 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:10:21,973 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434834
+2014-04-17 20:10:21,973 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:10:21,973 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434834
+2014-04-17 20:10:21,973 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=17380
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=678223872
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3977347072
+2014-04-17 20:10:21,974 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:10:22,045 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:10:22,071 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:10:22,095 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:10:22,119 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:10:22,143 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:10:22,175 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:10:22,210 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:10:22,238 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:10:22,264 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:10:22,291 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:10:22,511 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:10:22,626 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:10:22,642 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:10:22,665 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:96 sec:0
+2014-04-17 20:10:22,666 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:10:22,681 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:10:22,719 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:100 sec:0
+2014-04-17 20:10:22,719 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:10:22,735 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:10:22,771 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:99 sec:0
+2014-04-17 20:10:22,771 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:10:22,786 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:10:22,809 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:96 sec:0
+2014-04-17 20:10:22,809 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:10:22,824 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:10:22,860 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:97 sec:0
+2014-04-17 20:10:22,954 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:10:23,090 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:10:23,091 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:10:23,091 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:10:23,151 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:10:23,257 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:10:23,711 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0037
+2014-04-17 20:10:24,712 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:11:05,810 INFO org.apache.hadoop.mapred.JobClient (main):  map 99% reduce 0%
+2014-04-17 20:11:08,817 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:11:29,867 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 20%
+2014-04-17 20:11:32,875 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 80%
+2014-04-17 20:11:35,882 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:11:52,924 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0037
+2014-04-17 20:11:52,928 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:11:52,928 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:11:52,928 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=9
+2014-04-17 20:11:52,928 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=57423
+2014-04-17 20:11:52,928 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:11:52,928 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:11:52,928 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:11:52,928 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:11:52,929 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=139771
+2014-04-17 20:11:52,929 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:11:52,929 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=487
+2014-04-17 20:11:52,929 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:11:52,929 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434722
+2014-04-17 20:11:52,929 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:11:52,929 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600046
+2014-04-17 20:11:52,929 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1022137
+2014-04-17 20:11:52,930 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=487
+2014-04-17 20:11:52,930 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:11:52,930 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:11:52,930 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:11:52,930 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434702
+2014-04-17 20:11:52,930 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434702
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=17640
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=694968320
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3917783040
+2014-04-17 20:11:52,931 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:11:52,996 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:11:53,018 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:11:53,040 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:11:53,064 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:11:53,085 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:11:53,105 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:11:53,126 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:11:53,147 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:11:53,167 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:11:53,187 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:11:53,387 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:11:53,482 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:11:53,493 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:11:53,517 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:96 sec:0
+2014-04-17 20:11:53,518 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:11:53,529 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:11:53,549 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:100 sec:0
+2014-04-17 20:11:53,549 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:11:53,560 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:11:53,584 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:99 sec:0
+2014-04-17 20:11:53,585 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:11:53,596 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:11:53,627 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:95 sec:0
+2014-04-17 20:11:53,628 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:11:53,639 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:11:53,660 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:97 sec:0
+2014-04-17 20:11:53,737 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:11:53,880 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:11:53,880 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:11:53,880 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:11:53,945 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:11:53,998 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:11:54,254 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0038
+2014-04-17 20:11:55,256 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:12:38,373 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:12:59,421 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 6%
+2014-04-17 20:13:02,429 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 40%
+2014-04-17 20:13:05,436 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:13:22,484 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0038
+2014-04-17 20:13:22,488 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:13:22,488 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:13:22,488 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=8
+2014-04-17 20:13:22,488 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=53397
+2014-04-17 20:13:22,489 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:13:22,489 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:13:22,489 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:13:22,489 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:13:22,489 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=139696
+2014-04-17 20:13:22,489 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:13:22,489 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=482
+2014-04-17 20:13:22,489 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:13:22,490 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434688
+2014-04-17 20:13:22,490 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:13:22,490 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600045
+2014-04-17 20:13:22,490 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1022069
+2014-04-17 20:13:22,490 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=482
+2014-04-17 20:13:22,490 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:13:22,490 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:13:22,490 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:13:22,491 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434668
+2014-04-17 20:13:22,491 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:13:22,491 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434668
+2014-04-17 20:13:22,491 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=17520
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=699146240
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3976278016
+2014-04-17 20:13:22,492 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:13:22,642 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:13:22,664 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:13:22,686 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:13:22,708 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:13:22,729 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:13:22,750 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:13:22,770 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:13:22,790 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:13:22,811 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:13:22,832 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:13:23,025 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:13:23,117 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:13:23,128 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:13:23,158 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:96 sec:0
+2014-04-17 20:13:23,158 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:13:23,171 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:13:23,211 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:100 sec:0
+2014-04-17 20:13:23,211 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:13:23,223 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:13:23,244 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:99 sec:0
+2014-04-17 20:13:23,245 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:13:23,255 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:13:23,278 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:92 sec:0
+2014-04-17 20:13:23,279 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:13:23,290 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:13:23,321 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:95 sec:0
+2014-04-17 20:13:23,401 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:13:23,514 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:13:23,514 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:13:23,514 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:13:23,552 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:13:23,592 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:13:23,857 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0039
+2014-04-17 20:13:24,858 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:14:02,954 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:14:27,030 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 20%
+2014-04-17 20:14:30,038 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 60%
+2014-04-17 20:14:33,044 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:14:38,057 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201404171851_0039_r_000000_1, Status : FAILED
+2014-04-17 20:14:47,153 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0039
+2014-04-17 20:14:47,157 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:14:47,157 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:14:47,157 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=9
+2014-04-17 20:14:47,157 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=53304
+2014-04-17 20:14:47,157 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:14:47,157 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:14:47,158 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:14:47,158 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:14:47,158 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=123858
+2014-04-17 20:14:47,158 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:14:47,158 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=482
+2014-04-17 20:14:47,158 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:14:47,158 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434482
+2014-04-17 20:14:47,158 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:14:47,159 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600040
+2014-04-17 20:14:47,159 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1021657
+2014-04-17 20:14:47,159 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=482
+2014-04-17 20:14:47,159 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:14:47,159 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:14:47,159 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:14:47,159 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434462
+2014-04-17 20:14:47,159 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434462
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=16130
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=693329920
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3962937344
+2014-04-17 20:14:47,160 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:14:47,229 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:14:47,252 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:14:47,276 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:14:47,297 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:14:47,322 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:14:47,347 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:14:47,373 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:14:47,400 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:14:47,424 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:14:47,447 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:14:47,641 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:14:47,761 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:14:47,776 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:14:47,813 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:96 sec:0
+2014-04-17 20:14:47,814 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:14:47,829 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:14:47,877 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:98 sec:0
+2014-04-17 20:14:47,878 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:14:47,892 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:14:47,927 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:97 sec:0
+2014-04-17 20:14:47,928 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:14:47,941 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:14:47,965 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:95 sec:0
+2014-04-17 20:14:47,965 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:14:47,979 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:14:48,008 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:96 sec:0
+2014-04-17 20:14:48,097 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:14:48,219 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:14:48,219 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:14:48,219 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:14:48,258 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2014-04-17 20:14:48,259 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:14:48,302 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:14:48,842 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0040
+2014-04-17 20:14:49,843 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:15:33,862 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:15:57,946 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 26%
+2014-04-17 20:16:00,952 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 60%
+2014-04-17 20:16:03,960 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 80%
+2014-04-17 20:16:06,967 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:16:08,973 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201404171851_0040_r_000002_1, Status : FAILED
+2014-04-17 20:16:21,048 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0040
+2014-04-17 20:16:21,052 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:16:21,052 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:16:21,052 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=8
+2014-04-17 20:16:21,052 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=59718
+2014-04-17 20:16:21,052 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:16:21,052 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:16:21,052 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:16:21,053 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:16:21,055 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=116512
+2014-04-17 20:16:21,055 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:16:21,055 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=485
+2014-04-17 20:16:21,055 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:16:21,055 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434669
+2014-04-17 20:16:21,055 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:16:21,055 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600040
+2014-04-17 20:16:21,056 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1022031
+2014-04-17 20:16:21,056 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=485
+2014-04-17 20:16:21,056 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:16:21,056 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:16:21,056 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:16:21,056 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434649
+2014-04-17 20:16:21,056 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:16:21,056 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434649
+2014-04-17 20:16:21,056 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=16440
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=693129216
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3894071296
+2014-04-17 20:16:21,057 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:16:21,121 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:16:21,144 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:16:21,166 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:16:21,191 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:16:21,213 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:16:21,238 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:16:21,265 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:16:21,290 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:16:21,316 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:16:21,340 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:16:21,536 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/curClusters'
+2014-04-17 20:16:21,644 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:16:21,657 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' in S3
+2014-04-17 20:16:21,707 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000 len:96 sec:0
+2014-04-17 20:16:21,708 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:16:21,722 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' in S3
+2014-04-17 20:16:21,745 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001 len:99 sec:0
+2014-04-17 20:16:21,746 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:16:21,761 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' in S3
+2014-04-17 20:16:21,782 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002 len:97 sec:0
+2014-04-17 20:16:21,782 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:16:21,796 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' in S3
+2014-04-17 20:16:21,825 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003 len:96 sec:0
+2014-04-17 20:16:21,825 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading
+2014-04-17 20:16:21,838 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' in S3
+2014-04-17 20:16:21,860 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004 len:97 sec:0
+2014-04-17 20:16:21,951 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://jinleik/Kmeans10-3/output5/updatedClusters'
+2014-04-17 20:16:22,071 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-04-17 20:16:22,071 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 40
+2014-04-17 20:16:22,071 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-04-17 20:16:22,137 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-04-17 20:16:22,185 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-04-17 20:16:22,608 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201404171851_0041
+2014-04-17 20:16:23,636 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-04-17 20:17:01,722 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%
+2014-04-17 20:17:22,775 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 20%
+2014-04-17 20:17:25,785 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 40%
+2014-04-17 20:17:28,792 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 60%
+2014-04-17 20:17:31,799 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-04-17 20:17:45,854 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201404171851_0041
+2014-04-17 20:17:45,858 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 30
+2014-04-17 20:17:45,858 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-04-17 20:17:45,858 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=9
+2014-04-17 20:17:45,859 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=49259
+2014-04-17 20:17:45,859 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-04-17 20:17:45,859 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-04-17 20:17:45,859 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=1
+2014-04-17 20:17:45,859 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=1
+2014-04-17 20:17:45,859 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=122508
+2014-04-17 20:17:45,859 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-04-17 20:17:45,859 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=485
+2014-04-17 20:17:45,860 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-04-17 20:17:45,860 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=434669
+2014-04-17 20:17:45,860 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=101
+2014-04-17 20:17:45,860 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=600043
+2014-04-17 20:17:45,860 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=1022031
+2014-04-17 20:17:45,860 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=485
+2014-04-17 20:17:45,860 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-04-17 20:17:45,860 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=599558
+2014-04-17 20:17:45,860 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-04-17 20:17:45,861 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=434649
+2014-04-17 20:17:45,861 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=9999
+2014-04-17 20:17:45,861 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=434649
+2014-04-17 20:17:45,861 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=19998
+2014-04-17 20:17:45,861 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=639554
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=257757184
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=17000
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=101
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=9999
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=712605696
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=3978661888
+2014-04-17 20:17:45,862 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=9999
+2014-04-17 20:17:45,928 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00000' for reading
+2014-04-17 20:17:45,953 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00001' for reading
+2014-04-17 20:17:45,977 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00002' for reading
+2014-04-17 20:17:46,001 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00003' for reading
+2014-04-17 20:17:46,028 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/curClusters/part-r-00004' for reading
+2014-04-17 20:17:46,055 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00000' for reading
+2014-04-17 20:17:46,081 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00001' for reading
+2014-04-17 20:17:46,108 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00002' for reading
+2014-04-17 20:17:46,133 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00003' for reading
+2014-04-17 20:17:46,156 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://jinleik/Kmeans10-3/output5/updatedClusters/part-r-00004' for reading

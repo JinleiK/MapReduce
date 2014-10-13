@@ -1,0 +1,6 @@
+2014-04-17T22:09:55.973Z INFO Fetching jar file.
+2014-04-17T22:10:02.628Z INFO Working dir /mnt/var/lib/hadoop/steps/3
+2014-04-17T22:10:02.628Z INFO Executing /usr/java/latest/bin/java -cp /home/hadoop/conf:/usr/java/latest/lib/tools.jar:/home/hadoop:/home/hadoop/hadoop-tools.jar:/home/hadoop/hadoop-tools-1.0.3.jar:/home/hadoop/hadoop-core-1.0.3.jar:/home/hadoop/hadoop-core.jar:/home/hadoop/lib/*:/home/hadoop/lib/jetty-ext/* -Xmx1000m -Dhadoop.log.dir=/mnt/var/log/hadoop/steps/3 -Dhadoop.log.file=syslog -Dhadoop.home.dir=/home/hadoop -Dhadoop.id.str=hadoop -Dhadoop.root.logger=INFO,DRFA -Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/3/tmp -Djava.library.path=/home/hadoop/native/Linux-amd64-64 org.apache.hadoop.util.RunJar /mnt/var/lib/hadoop/steps/3/Kmeans.jar s3://jinleik/KmeansData/part-m-00000 s3://jinleik/Kmeans2/output2 2
+2014-04-17T22:25:13.626Z INFO Execution ended with ret val 0
+2014-04-17T22:25:20.205Z INFO Step created jobs: job_201404172114_0031,job_201404172114_0032,job_201404172114_0033,job_201404172114_0034,job_201404172114_0035,job_201404172114_0036,job_201404172114_0037,job_201404172114_0038,job_201404172114_0039,job_201404172114_0040,job_201404172114_0041
+2014-04-17T22:26:31.478Z INFO Step succeeded
