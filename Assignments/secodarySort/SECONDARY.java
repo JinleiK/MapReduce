@@ -105,7 +105,7 @@ public class SECONDARY {
 				//else calculate the current average and
 				//let the sum = the value, and set the count to 1
 				} else {
-					average = (int)Math.round(sum / count);
+					average = (int)Math.ceil(sum / count);
 					outString += ", (" + curComKey + "," + average + ")";
 					sum = nextValue;
 					count = 1;
