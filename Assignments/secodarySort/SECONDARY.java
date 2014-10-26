@@ -113,7 +113,7 @@ public class SECONDARY {
 				}
 			}
 			//calculate the average delay of the last month
-			average = (int)Math.round(sum / count);
+			average = (int)Math.ceil(sum / count);
 			outString += ", (" + curComKey + "," + average + ")";
 			outString = key.getAirline() + outString;
 			while(curComKey < 12){
